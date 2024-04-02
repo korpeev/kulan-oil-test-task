@@ -1,21 +1,19 @@
 /** @type {import('tailwindcss').Config} */
+import colors from 'tailwindcss/colors.js'
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {
-      colors: {
-        primary: "#EF363C",
-        gray: "#F6F6F6",
-        link: "#583899"
-      },
-      fontFamily: {
-        'mulish': ['Mulish']
-      }
+    content: ['./src/**/*.{js,ts,vue}'],
+    theme: {
+        extend: {
+            colors: {
+                primary: '#EF363C',
+                'custom-gray': '#F6F6F6',
+                link: '#583899',
+                ...colors,
+            },
+            fontFamily: {
+                mulish: ['Mulish'],
+            },
+        },
     },
-  },
-  plugins: [],
+    plugins: [],
 }
-
