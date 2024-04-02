@@ -4,7 +4,7 @@
             <div
                 ref="menuContainerRef"
                 v-if="mobileMenuOpen"
-                class="max-lg:block hidden fixed right-0 top-[8px] h-screen bg-white p-8 shadow-2xl"
+                class="max-lg:block hidden fixed right-0 top-[8px] h-screen bg-white p-8 shadow-2xl z-30"
             >
                 <button
                     @click="mobileMenuOpen = false"

@@ -5,23 +5,43 @@
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-Black.ttf') format('truetype');
+    src: url('@/assets/fonts/Mulish-Black.ttf') format('truetype');
+    font-display: swap;
     font-weight: 800;
 }
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-Bold.ttf') format('truetype');
+    src: url('@/assets/fonts/Mulish-Bold.ttf') format('truetype');
+    font-display: swap;
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./assets/fonts/Mulish-Regular.ttf') format('truetype');
-    font-weight: 700;
+    src: url('@/assets/fonts/Mulish-Regular.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 400;
 }
 
 
 body {
     font-family: Mulish, sans-serif;
+}
+
+
+.fade-enter-active {
+    animation: fade 0.2s linear;
+}
+.fade-leave-active {
+    animation: fade 0.2s linear reverse;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
 }

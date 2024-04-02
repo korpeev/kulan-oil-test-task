@@ -8,6 +8,7 @@ export default {
                 primary: '#EF363C',
                 'custom-gray': '#F6F6F6',
                 link: '#583899',
+                'input-border': '#CBCBCB',
                 ...colors,
             },
             fontFamily: {

@@ -1,12 +1,12 @@
 <template>
     <section
-        class="min-h-[480px] bg-custom-gray flex items-center justify-between overflow-hidden"
+        class="min-h-[480px] bg-custom-gray flex items-center justify-between"
     >
         <app-button class="ml-[10%]">
             <img src="@/assets/icons/chevron.svg" alt="chevron right" />
         </app-button>
 
-        <div class="container max-w-[1180px] mx-auto max-xl:px-4">
+        <div class="container relative max-w-[1180px] mx-auto max-xl:px-4">
             <div
                 class="flex justify-between items-center max-lg:flex-col max-lg:mt-[40px]"
             >
@@ -23,7 +23,7 @@
                         >Подробнее</app-button
                     >
                 </div>
-                <div class="relative max-lg:mt-[20px]">
+                <div class="relative max-lg:mt-[20px] max-lg:overflow-hidden">
                     <img
                         class="absolute -right-[48%] max-lg:right-0"
                         src="@/assets/img/elipse.png"
@@ -48,4 +48,5 @@
 </template>
 <script setup lang="ts">
 import AppButton from '@/components/shared/app-button.vue'
+import FormCalculator from '@/components/calculator/form-calculator.vue'
 </script>
