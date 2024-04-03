@@ -11,18 +11,12 @@
                     <span class="font-black">{{ distance }} км</span>
                 </div>
                 <div class="flex gap-[8px]">
-                    <img
-                        src="@/assets/icons/distance-icon.svg"
-                        alt="distance icon"
-                    />
+                    <img src="@/assets/icons/clock-icon.svg" alt="clock icon" />
                     <span>Время:</span>
                     <span class="font-black">{{ hour }} ч</span>
                 </div>
                 <div class="flex gap-[8px]">
-                    <img
-                        src="@/assets/icons/distance-icon.svg"
-                        alt="distance icon"
-                    />
+                    <img src="@/assets/icons/cost-icon.png" alt="cost icon" />
                     <span>Стоимость:</span>
                     <span class="font-black">{{ cost }} ₸</span>
                 </div>
