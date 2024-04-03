@@ -42,7 +42,7 @@ interface Props {
     show?: boolean
     distance: number | null
     hour: number | null
-    cost: number | null
+    cost: number | string | null
 }
 interface FormCalculatorResultEmit {
     (event: 'reset-result'): void

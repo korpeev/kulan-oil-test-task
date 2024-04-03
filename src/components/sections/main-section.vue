@@ -48,5 +48,4 @@
 </template>
 <script setup lang="ts">
 import AppButton from '@/components/shared/app-button.vue'
-import FormCalculator from '@/components/calculator/form-calculator.vue'
 </script>
